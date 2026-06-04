@@ -1,8 +1,8 @@
 {
   "name": "Reset While You Sleep",
   "short_name": "Sanctuary",
-  "description": "A place of rest, renewal, and transformation.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#050505",
   "theme_color": "#050505",
