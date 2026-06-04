@@ -2,7 +2,11 @@
 <html>
 <head>
 
-<meta name="theme-color" content="#0b0b0b">
+<meta charset="utf-8">
+
+<title>Entering the Sanctuary...</title>
+
+<meta name="theme-color" content="#050505">
 
 <link rel="manifest" href="manifest.json">
 
@@ -19,39 +23,6 @@ type="image/png"
 sizes="16x16"
 href="assets/icons/favicon-16.png">
 
-<meta charset="utf-8">
-<title>Entering the Sanctuary...</title>
-
-<!DOCTYPE html>
-<html>
-<head>
-
-<meta name="theme-color" content="#0b0b0b">
-
-<link rel="manifest" href="manifest.json">
-
-<link rel="apple-touch-icon"
-href="assets/icons/apple-touch-icon.png">
-
-<link rel="icon"
-type="image/png"
-sizes="32x32"
-href="assets/icons/favicon-32.png">
-
-<link rel="icon"
-type="image/png"
-sizes="16x16"
-href="assets/icons/favicon-16.png">
-
-<meta charset="utf-8">
-<title>Entering the Sanctuary...</title>
-
-<link rel="apple-touch-icon"
-href="apple-touch-icon.png">
-
-<meta name="theme-color"
-content="#050505">
-
 <meta
 name="apple-mobile-web-app-capable"
 content="yes">
@@ -65,45 +36,24 @@ name="apple-mobile-web-app-status-bar-style"
 content="black-translucent">
 
 <meta http-equiv="refresh"
-      content="0; url=https://resetwhileyousleep.github.io/sanctuary-access/">
+content="0; url=https://resetwhileyousleep.github.io/sanctuary-access/">
 
 </head>
+
 <body>
 
 <script>
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(
+    '/service-worker.js'
+  );
+}
+
 window.location.replace(
 "https://resetwhileyousleep.github.io/sanctuary-access/"
 );
-</script>
 
-</body>
-</html>
-
-<meta name="theme-color"
-content="#050505">
-
-<meta
-name="apple-mobile-web-app-capable"
-content="yes">
-
-<meta
-name="apple-mobile-web-app-title"
-content="Sanctuary">
-
-<meta
-name="apple-mobile-web-app-status-bar-style"
-content="black-translucent">
-
-<meta http-equiv="refresh"
-      content="0; url=https://resetwhileyousleep.github.io/sanctuary-access/">
-
-</head>
-<body>
-
-<script>
-window.location.replace(
-"https://resetwhileyousleep.github.io/sanctuary-access/"
-);
 </script>
 
 </body>
